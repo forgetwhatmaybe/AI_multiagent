@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# 敏感配置（API Key、密码等）
+.env
+.env.*
+!.env_example
+
+# 日志与本地运行数据
+logs/
+user_memories/
+chroma_kb/
+
+# IDE / 系统文件
+.idea/
+.vscode/
+.DS_Store
